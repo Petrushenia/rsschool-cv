@@ -38,3 +38,11 @@ console.log(myResult);
 
 I don't have any experience.
 
+## Education
+
+Gomel State Vocational College of Electrical Engineering
+
+## English
+
+A1 (I learn English myself)
+
