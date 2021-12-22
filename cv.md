@@ -28,7 +28,7 @@ I realized that my work no longer progres me, so I'm here!
 
 function multiply(a, d) {
   return(a + b);
-}
+};
 let myResult = multiply(31, 15);
 console.log(myResult);
 ```
