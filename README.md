@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Petrushenia.github.io/rsschool-cv/cv
