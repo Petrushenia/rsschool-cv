@@ -35,7 +35,11 @@ console.log(myResult);
 
 ## Experience
 
-I don't have any experience.
+I participated in some intensive courses on creating websites in html and css:
+- Abito - <https://github.com/Petrushenia/Abito>
+- Melody - <https://github.com/Petrushenia/Melody>
+-  Eat-Index - <https://github.com/Petrushenia/Eat-Index>
+
 
 ## Education
 
