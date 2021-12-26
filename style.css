@@ -1,12 +1,19 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: Roboto;
-  scroll-behavior: smooth; 
+  margin: 0;
+  background-color: #EAEAE8;
+}
+.header {
+  background-color: #B3BDBC;
 }
 .container {
   max-width: 1440px;
@@ -22,11 +29,56 @@ body {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
   text-decoration: none;
   transition: .8s;
 }
 .nav-link:hover {
-  color: #256EEB;
+  color: #000;
   text-decoration: underline;
+}
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  position: relative;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  line-height: 50px;
+  word-spacing: 3px;
+  color: #817361;
+}
+.name::after {
+  content: "";
+  position: absolute;
+  top: 75px;
+  left: 140px;
+  border-bottom: 2px solid #B3BDBC;
+  width: 150px;
+}
+.profession-title {
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.my-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.hr-line {
+  width: 95%;
 }
