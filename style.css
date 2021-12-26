@@ -68,7 +68,7 @@ body {
   border-bottom: 2px solid #B3BDBC;
   width: 150px;
 }
-.profession-title {
+h3 {
   line-height: 50px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -81,4 +81,12 @@ body {
 }
 .hr-line {
   width: 95%;
+}
+.section-contacts {
+  padding-left: 40px;
+}
+.contacts-list {
+  list-style: none;
+  padding: 0;
+
 }
