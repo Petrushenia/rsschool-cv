@@ -82,6 +82,10 @@ h3 {
 .hr-line {
   width: 95%;
 }
+.information {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
 .section-contacts {
   padding-left: 40px;
 }
