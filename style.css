@@ -12,7 +12,8 @@ body {
   margin: 0;
   background-color: #EAEAE8;
 }
-.header {
+.header,
+.footer {
   background-color: #B3BDBC;
 }
 .container {
@@ -108,12 +109,14 @@ h3 {
 .contact-link:hover {
   color: #000;
 }
-.rigth-section {
+.right-section {
   padding-left: 35px;
 }
-.summary-text {
+.summary-text,
+.education-text {
   font-size: 18px;
-  line-height: 1.5
+  line-height: 1.5;
+  letter-spacing: 1.5px
 }
 .section-line {
   width: 100%;
@@ -124,24 +127,37 @@ h3 {
 .line-right {
   margin-right: auto;
 }
-ul {
+.skill-list,
+.project-list {
   padding: 0;
-  list-style: none;
   font-size: 18px;
-  line-height: 1.5
+  text-decoration: none;
+  transition: color .3s;
+  letter-spacing: 1.5px;
+  list-style: none;
 }
-.experience-list {
+.project-list {
   display: flex;
 }
-.experience-link {
-  font-size: 18px;
+.project-link {
   text-decoration: none;
   color: #34A8BD;
   transition: color .3s;
   letter-spacing: 1.5px;
   margin-right: 20px;
-  transition: color .3s;
 }
-.experience-link:hover {
+.project-link:hover {
   color: #000; 
+}
+.english-section {
+  text-align: center;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo {
+  width: 100px;
 }
