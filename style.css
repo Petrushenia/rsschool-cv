@@ -35,6 +35,11 @@ body {
   text-decoration: none;
   transition: .8s;
 }
+@media (max-width: 992px) {
+  .nav-link {
+    padding: 0 10px;
+  }
+}
 .nav-link:hover {
   color: #000;
   text-decoration: underline;
@@ -60,14 +65,6 @@ body {
   word-spacing: 3px;
   color: #817361;
 }
-.name::after {
-  content: "";
-  position: absolute;
-  top: 75px;
-  left: 140px;
-  border-bottom: 2px solid #B3BDBC;
-  width: 150px;
-}
 h3 {
   line-height: 50px;
   font-weight: 300;
@@ -78,6 +75,9 @@ h3 {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
+}
+.title-line{
+  width: 50%;
 }
 .hr-line {
   width: 95%;
@@ -92,5 +92,15 @@ h3 {
 .contacts-list {
   list-style: none;
   padding: 0;
-
+}
+.contact-item {
+  margin-bottom: 8px;
+}
+.contact-link {
+  text-decoration: none;
+  color: #B3BF12;
+  transition: color .3s;
+}
+.contact-link:hover {
+  color: #000;
 }
