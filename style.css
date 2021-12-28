@@ -157,6 +157,14 @@ h3 {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  color: #fff;
+}
+.petrushenia-github-link {
+  color: #000;
+  transition: color .3s;
+}
+.petrushenia-github-link:hover {
+  color: #fff;
 }
 .logo {
   width: 100px;
