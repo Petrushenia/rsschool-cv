@@ -153,6 +153,8 @@ h3 {
   text-align: center;
 }
 .footer {
+  width: 100px;
+  flex-basis: 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
