@@ -138,6 +138,8 @@ h3 {
 }
 .project-list {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .project-link {
   text-decoration: none;
