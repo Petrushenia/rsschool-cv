@@ -77,3 +77,133 @@ body {
   word-spacing: 3px;
   color: #817361;
 }
+
+h3 {
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #305ABD;
+}
+
+.my-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.title-line {
+  width: 50%;
+}
+
+.hr-line {
+  width: 95%;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+
+.left-section {
+  padding-left: 40px;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  margin-bottom: 8px;
+}
+
+.contact-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #34A8BD;
+  transition: color .3s;
+  letter-spacing: 1.5px;
+}
+
+.contact-link:hover {
+  color: #000;
+}
+
+.right-section {
+  padding-left: 35px;
+}
+
+.summary-text,
+.education-text {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 1.5px
+}
+
+.section-line {
+  width: 100%;
+}
+
+.text-line {
+  width: 90%;
+}
+
+.line-right {
+  margin-right: auto;
+}
+
+.skill-list,
+.project-list {
+  padding: 0;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color .3s;
+  letter-spacing: 1.5px;
+  list-style: none;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #34A8BD;
+  transition: color .3s;
+  letter-spacing: 1.5px;
+  margin-right: 20px;
+}
+
+.project-link:hover {
+  color: #000;
+}
+
+.english-section {
+  text-align: center;
+}
+
+.footer {
+  flex-basis: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+}
+
+.petrushenia-github-link {
+  color: #000;
+  transition: color .3s;
+}
+
+.petrushenia-github-link:hover {
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+}
